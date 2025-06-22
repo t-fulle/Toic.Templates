@@ -1,0 +1,14 @@
+<Project>
+    <Import Project="sub\Toic.Shared\Toic.Shared.Pre.props" />
+    
+     
+    
+    <PropertyGroup>
+        <TargetFrameworks>$(DotNet)</TargetFrameworks>
+        <Version>0.0.1</Version>
+    </PropertyGroup>
+
+    
+    
+    <Import Project="sub\Toic.Shared\Toic.Shared.Post.props" />
+</Project>

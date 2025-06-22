@@ -1,0 +1,14 @@
+<Project>
+    <Import Project="sub\Toic.Shared\Toic.Shared.Pre.targets" />
+
+    
+    
+    <PropertyGroup>
+        <Authors>Thomas Fulle</Authors>
+        <PackageProjectUrl>ADD_GITHUB_REPOSIOTORY_URL</PackageProjectUrl>
+    </PropertyGroup>
+
+    
+    
+    <Import Project="sub\Toic.Shared\Toic.Shared.Post.targets" />
+</Project>
