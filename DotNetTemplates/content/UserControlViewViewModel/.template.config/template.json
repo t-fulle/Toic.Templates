@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Thomas Fulle",
+  "classifications": [ "Wpf", "Prism", "mvvm", "vvm", "ucvvm" ],
+  "identity": "Toic.UserControlViewViewModel",
+  "name": "UserControl View & ViewModel template",
+  "shortName": "ucvvm",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+
+  "symbols": {
+    "ClassName": {
+      "type": "parameter",
+      "description": "The name of the View and the ViewModel.",
+      "datatype": "text",
+      "replaces": "REPLACE_ME",
+      "fileRename": "REPLACE_ME",
+      "defaultValue": ""
+    },
+    "namespace": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "ROOT_NAMESPACE",
+      "defaultValue": "Toic.UserInterface",
+      "description": "The namespace the View and ViewModel are in."
+    }
+  }
+}

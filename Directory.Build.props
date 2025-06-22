@@ -8,7 +8,12 @@
         <Version>0.0.1</Version>
     </PropertyGroup>
 
-    
+    <PropertyGroup>
+        <!-- <BaseIntermediateOutputPath>R:\Toic.Templates\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>   -->
+        <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>  
+        <!-- <OutDir>R:\Toic.Templates\bin\$(MSBuildProjectName)\$(Configuration)</OutDir> -->
+        <OutDir>$(MSBuildThisFileDirectory)\bin\$(MSBuildProjectName)\$(Configuration)</OutDir>
+    </PropertyGroup>
     
     <Import Project="sub\Toic.Shared\Toic.Shared.Post.props" />
 </Project>

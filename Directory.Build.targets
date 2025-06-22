@@ -5,7 +5,7 @@
     
     <PropertyGroup>
         <Authors>Thomas Fulle</Authors>
-        <PackageProjectUrl>ADD_GITHUB_REPOSIOTORY_URL</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/t-fulle/Toic.Templates</PackageProjectUrl>
     </PropertyGroup>
 
     

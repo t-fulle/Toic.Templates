@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Thomas Fulle",
+    "classifications": [ "prism", "wpf", "app" ],
+    "identity": "Toic.PrismWpfApp",
+    "name": "PrismWpfApp",
+    "shortName": "PrismWpfApp",
+    "sourceName": "PrismWpfApp",
+    "defaultName": "PrismWpfApp",
+    "preferDefaultName": true,
+    "preferNameDirectory": true,
+
+  "symbols": {
+    "rootnamespace": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "ROOT_NAMESPACE",
+      "defaultValue": "Toic.UserInterface",
+      "description": "The root namespace to use in the generated project."
+    }
+  },
+
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    }
+
+}

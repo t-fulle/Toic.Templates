@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    
+    <PropertyGroup>
+        <Product>PrismWpfApp</Product>
+        <RootNamespace>ROOT_NAMESPACE</RootNamespace>
+
+        <TargetFrameworks>$(DotNetWindows)</TargetFrameworks>
+        
+        <OutputType>WinExe</OutputType>      
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+    
+    
+    <ItemGroup>
+      <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
+    </ItemGroup>
+</Project>
